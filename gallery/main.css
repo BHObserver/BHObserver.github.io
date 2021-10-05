@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(90deg, rgb(43, 45, 82), white);
+    margin: 0;
+    /* border: 12px groove ghostwhite; */
+    padding: 18px;
+}
+
+h1 {
+    color: white;
+    background: linear-gradient(90deg, rgb(54, 57, 88), rgb(204, 192, 226));
+    margin: 5px;
+    font-family: monospace;
+    font-weight: 100;    
+    font-size: 3.2em;
+    text-align: center;
+    padding: 10px 24px;
+    width: fit-content;
+    border: 2px solid whitesmoke;
+    box-shadow: 6px 6px 8px black;
+    text-shadow: 3px 3px 5px black;
+    
+}
+
+.container {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 250px;
+    height: 180px;
+    margin: 1%;
+    transition: all 0.8s;
+    border: 5px groove rgb(215, 234, 248);
+}
+
+img:hover {
+    transform: scale(1.1);
+    border: 1px groove whitesmoke;
+    box-shadow: 3px 3px 5px black;
+}
+
+/* img:hover {
+    width: 380px;
+    height: 270px;
+    border: 2px solid blue;
+}
+ */
