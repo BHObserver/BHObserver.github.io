@@ -8,8 +8,8 @@ button.addEventListener('click', function (){
 
 
 function getCard() {
-    const value = [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 'Jack', 'Queen', 'King', 'Ace' ];
-    const suit = [ 'Clubs', 'Diamonds', 'Spades', 'Hearts'];
+    const value = [ 2, 3, 4, 5, 6, 7, 8, 9, 10, 'jack', 'queen', 'king', 'ace' ];
+    const suit = [ 'clubs', 'diamonds', 'spades', 'hearts'];
     
     function random(arr) {
         const idx = Math.floor( Math.random() * arr.length);
