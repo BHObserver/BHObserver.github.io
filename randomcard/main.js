@@ -20,6 +20,6 @@ function getCard() {
     let randomSuit = random(suit);
     
     cardDisplay.innerHTML = `<img src='imgs/${randomValue}${randomSuit}.png'>`;
-    textDisplay.innerHTML = (randomValue + ' of ' + randomSuit);
+    textDisplay.innerHTML = (randomValue + ' of ' + randomSuit.toUppercase());
     
 }
