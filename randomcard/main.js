@@ -19,7 +19,7 @@ function getCard() {
     let randomValue = random(value);
     let randomSuit = random(suit);
     
-    cardDisplay.innerHTML = `<img src='imgs/${randomValue}${randomSuit}.png'>`;
+    cardDisplay.innerHTML = `<img src='imgs/${randomValue}${randomSuit}.png'>`; //changed
     textDisplay.innerHTML = (randomValue + ' of ' + randomSuit);
     
 }
