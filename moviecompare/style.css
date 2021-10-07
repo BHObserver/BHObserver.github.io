@@ -50,3 +50,8 @@ figure .image img {
 .autocomplete {
   padding: 10px;
 }
+
+#media-style {
+  width: 400px;
+  height: 250px;
+}

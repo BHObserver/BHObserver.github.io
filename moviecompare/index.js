@@ -113,6 +113,8 @@ const movieTemplate = (movieDetail) => {
     //console.log(dollars, imdbRating, movieVotes, rottenTometo, metascore)
     
     return `
+    
+    <div id="media-style"> 
         <article class="media">
             <figure class="media-left">
                 <p class="image">
@@ -128,7 +130,8 @@ const movieTemplate = (movieDetail) => {
                 </div>
             </div>
         </article>
-            
+    </div>
+              
         <article data-value=${awards} class="notification is-primary">
             <p class="title"> ${movieDetail.Awards} </p>
             <p class="subtitle"> Awards </p>
