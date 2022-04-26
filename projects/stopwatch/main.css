@@ -1,0 +1,66 @@
+body {
+    background: url("imgs/bg41.jpg") center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+#header {
+    text-align: center;
+    text-shadow: 1px 2px 4px black;
+    font-size: 7vw;
+}
+
+#lap {
+    text-align: right;
+    font-size: 4vw;
+}
+
+#time {
+    text-align: center;
+    font-size: 10vw;
+}
+
+#controlsContainer {
+    margin-bottom: 100px;
+}
+
+.control {
+    color: white;
+    background-color: darkred;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    text-align: center;
+    text-shadow: 1px 2px 4px black;
+    box-shadow: 1px 2px 4px black;
+    padding: 20% 0;
+    font-size: 2.5vw;
+    cursor: pointer
+}
+
+.control:active{
+    background-color: green;
+    color: white;
+}
+
+#laps {
+    max-height: 270px;
+    overflow-y: scroll;
+}
+
+.lap {
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+    
+}
+
+.laptimetitle {
+    font-size: 1.5em;
+    float: left;
+}
+
+.laptime {
+    font-size: 2em;
+    float: right;
+}
