@@ -51,7 +51,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://bhobserver.github.io/projects/module-one-capstone-project/index.html)
+- [Live Demo Link](https://bhobserver.github.io/projects/world-music-festival/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,6 +130,9 @@ Contributions, issues, and feature requests are welcome!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to say that, I am really greatful to the Microverse community.
+The template used in this website is created **Cindy Shin**
+ Thanks to:
+- [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

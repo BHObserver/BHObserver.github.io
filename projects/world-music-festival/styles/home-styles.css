@@ -252,7 +252,7 @@ body {
   max-width: 190px;
 }
 
-.performer-text-container {
+.performer-details {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -260,7 +260,7 @@ body {
   width: 65%;
 }
 
-.performer-text-container h3 {
+.performer-details h3 {
   margin: 0;
 }
 
