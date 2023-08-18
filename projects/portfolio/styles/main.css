@@ -162,12 +162,12 @@ main {
 }
 
 button:hover {
-  background: #36b37f;
+  background-color: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
 
 button:active {
-  background: #008552;
+  background-color: #008552;
 }
 
 .color1 { color: #172b4d; }
