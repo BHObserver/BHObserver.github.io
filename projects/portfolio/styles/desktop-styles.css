@@ -3,6 +3,10 @@
     display: none;
   }
 
+  .nav-mobile {
+    display: none;
+  }
+
   .nav-desktop {
     display: flex;
     justify-content: center;
@@ -143,14 +147,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: calc(18px + 0.37219vw);
+    margin-top: calc(17px + 0.37219vw);
   }
 
   .see-project-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
     color: #fff;
-    width: 7.5vw;
-    height: 3.5vw;
+    width: calc(6vw + 1.5vh);
+    height: calc(2vw + 1.5vh);
     padding: 7px 0 7px 0;
     font-size: calc(2.3px + 0.926917vw);
     background: #36b37f;
@@ -231,7 +238,8 @@
     background-position: center;
     padding-top: 20px;
     width: 100%;
-    margin-top: 2em;
+
+    /* margin-top: 2em; */
     margin-bottom: 1em;
   }
 
@@ -396,5 +404,176 @@
     background-image: url(../assets/rectangle-footer.png);
     width: 100%;
     height: 1px;
+  }
+
+  /* Add Pop-up */
+  .hide {
+    display: none;
+  }
+
+  .blur-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(193, 199, 208, 0.7);
+    backdrop-filter: blur(5px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    top: 0;
+    box-sizing: border-box;
+  }
+
+  .pop-up {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 920px;
+    width: 63.889vw;
+    height: 90%;
+    border-radius: 8px;
+    margin-top: 4vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .close-pop-up {
+    float: right;
+    padding: 20px;
+  }
+
+  .img-pop-up {
+    padding: 0 2.5vw 0 1vw;
+    border-radius: 8px;
+    max-width: 920px;
+    width: 61vw;
+  }
+
+  .pop-up .btn-container {
+    float: right;
+    padding: 20px;
+    gap: 1vw;
+    margin-right: 0.7vw;
+  }
+
+  .see-live-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(../assets/live.png);
+    background-position-x: 80px;
+    background-position-y: 15px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-color: #36b37e;
+    color: #fff;
+    width: 115px;
+    height: 48px;
+    font-family: Inter, serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .see-live-btn a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .see-source-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(../assets/git-vec.png);
+    background-position-x: 105px;
+    background-position-y: 15px;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-color: #36b37e;
+    color: #fff;
+    width: 139px;
+    height: 48px;
+    font-family: Inter, serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .see-source-btn a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .pop-up-heading {
+    max-width: 589px;
+    max-height: 120px;
+    color: #172b4d;
+    padding: 2vh;
+    width: 100%;
+    height: 100%;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 3.5vw;
+  }
+
+  .pop-up-heading h3 {
+    margin: 0;
+  }
+
+  .pop-up-heading .tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebf0ee;
+    padding: 10px;
+    font-size: 12px;
+    white-space: nowrap;
+    margin-right: 8px;
+    border: none;
+    color: #3a4a42;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+
+  .pop-up-description {
+    color: #344563;
+    font-family: Inter, sans-serif;
+    max-width: 876px;
+    max-height: 151px;
+    width: 95%;
+    height: 100%;
+    font-weight: 400;
+    font-size: 1.47vw;
+    line-height: 1.6em;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 120px;
+  }
+
+  .img-pop-up-mobile {
+    display: none;
+  }
+
+  .close-pop-up-mobile {
+    display: none;
+  }
+
+  .mobile-pop-up-btn {
+    display: none;
+  }
+
+  .validation-message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ff000f;
+    font-weight: bold;
   }
 }
