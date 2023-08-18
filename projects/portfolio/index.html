@@ -10,27 +10,58 @@
     <link rel='stylesheet' type='text/css' media='screen' href='styles/desktop-styles.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-            <nav class="nav-bar">
-                <img src="assets/logo.svg" id="logo" alt="Page logo">
-                <img src="assets/nav-burger.svg" class="nav-btn" alt="Button to navigate">
-            </nav>
+        <nav class="nav-bar">
+            <img src="assets/logo.svg" id="logo" alt="Page logo">
+            <img src="assets/nav-burger.svg" class="nav-btn" alt="Button to navigate">
+        </nav>
     </header>
     <main>
-        <div class="header-desktop">
-            <nav class="nav-desktop">
-                <ul>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+        <div class="mobile-menu-container">
+            <div class="header-desktop">
+                <div class="cross"></div>
+                <nav class="nav-desktop">
+                    <ul>
+                        <li><a href="#work_section">Portfolio</a></li>
+                        <li><a href="#about_section">About</a></li>
+                        <li><a href="#contact_section">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="nav-mobile">
+                    <ul>
+                        <li><a href="#work_section">Portfolio</a></li>
+                        <li><a href="#about_section">About</a></li>
+                        <li><a href="#contact_section">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <section class="heading-text headline">
+        <div class="blur-bg hide">
+            <div class="pop-up">
+                <img src="assets/Disabled.png" class="close-pop-up" alt="close-button">
+                <img src="assets/portfolio-img.jpg" class="img-pop-up" alt="portfolio-image">
+                <img src="assets/cancel-icon.png" class="close-pop-up-mobile" alt="portfolio-image">
+                <img src="assets/portfolio-mobile.png" class="img-pop-up-mobile" alt="portfolio-image">
+                <span class="btn-container desktop-pop-up-btn">
+                        <button class="see-live-btn"><a>See live</a></button>
+                        <button class="see-source-btn"><a>See source</a></button>
+                </span>
+                <div class="pop-up-heading">
+                </div>
+                <div class="pop-up-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex similique reiciendis dolor quidem, ea provident ipsa quam perspiciatis quia quisquam officiis aut animi facilis laudantium totam delectus odio ducimus. Quasi. Lorem ipsum dolorsit amet consectetur adipisicing elit. Optio at nisi ipsam.</p>  
+                </div>
+                <span class="mobile-pop-up-btn">
+                    <button class="see-live-btn"> <a >See live</a></button>
+                    <button class="see-source-btn"><a>See source</a></button>
+                </span>
+            </div>
+        </div>
+        <section class="heading-text headline" id="home">
             <div class="text-container">
                 <h1 class="primary">
                     <span class="color1 intro">
@@ -56,105 +87,13 @@
                 <img src="assets/bottom arrow.svg" alt="bottom-arrow" >
             </div>   
         </section> 
-        <section class="works">
+        <section class="works" id="work_section">
             <h2 class="color1 primary">My Recent Works</h2>
             <div class="indicator">
                 <img src="assets/indicator.svg"  alt="indicator">
             </div>
-            <div class="project-grid">
-                <div class="project-container">
-                    <div class="img-container"></div>
-                    <div class="project-details">
-                        <h3 class="project-title"> Multi-Post Stories <br> Gain+Glory</h3>
-                        <ul class="tech-stack">
-                            <li class="tag">Ruby on Rails</li>
-                            <li class="tag">CSS</li>
-                            <li class="tag">JavaScript</li>
-                            <li class="tag">HTML</li> 
-                        </ul>
-                        <div class="btn-container">
-                            <button class="see-project-btn" type="button">See project</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-container">
-                    <div class="img-container"></div>
-                    <div class="project-details">
-                        <h3 class="project-title"> Multi-Post Stories <br> Gain+Glory</h3>
-                        <ul class="tech-stack">
-                            <li class="tag">Ruby on Rails</li>
-                            <li class="tag">CSS</li>
-                            <li class="tag">JavaScript</li>
-                            <li class="tag">HTML</li> 
-                        </ul>
-                        <div class="btn-container">
-                            <button class="see-project-btn" type="button">See project</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-container">
-                    <div class="img-container"></div>
-                    <div class="project-details">
-                        <h3 class="project-title"> Multi-Post Stories <br> Gain+Glory</h3>
-                        <ul class="tech-stack">
-                            <li class="tag">Ruby on Rails</li>
-                            <li class="tag">CSS</li>
-                            <li class="tag">JavaScript</li>
-                            <li class="tag">HTML</li> 
-                        </ul>
-                        <div class="btn-container">
-                            <button class="see-project-btn" type="button">See project</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-container">
-                    <div class="img-container"></div>
-                    <div class="project-details">
-                        <h3 class="project-title"> Multi-Post Stories <br> Gain+Glory</h3>
-                        <ul class="tech-stack">
-                            <li class="tag">Ruby on Rails</li>
-                            <li class="tag">CSS</li>
-                            <li class="tag">JavaScript</li>
-                            <li class="tag">HTML</li> 
-                        </ul>
-                        <div class="btn-container">
-                            <button class="see-project-btn" type="button">See project</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-container">
-                    <div class="img-container"></div>
-                    <div class="project-details">
-                        <h3 class="project-title"> Multi-Post Stories <br> Gain+Glory</h3>
-                        <ul class="tech-stack">
-                            <li class="tag">Ruby on Rails</li>
-                            <li class="tag">CSS</li>
-                            <li class="tag">JavaScript</li>
-                            <li class="tag">HTML</li> 
-                        </ul>
-                        <div class="btn-container">
-                            <button class="see-project-btn" type="button">See project</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-container">
-                    <div class="img-container"></div>
-                    <div class="project-details">
-                        <h3 class="project-title"> Multi-Post Stories <br> Gain+Glory</h3>
-                        <ul class="tech-stack">
-                            <li class="tag">Ruby on Rails</li>
-                            <li class="tag">CSS</li>
-                            <li class="tag">JavaScript</li>
-                            <li class="tag">HTML</li> 
-                        </ul>
-                        <div class="btn-container">
-                            <button class="see-project-btn" type="button">See project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
-        <section class="heading-text about-me">
+        <section class="heading-text about-me" id="about_section">
             <div class="about-me-container">
                 <h2 class="primary color1">About me</h2>  
                 <p class="supporting-text"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
@@ -204,24 +143,26 @@
               </div>
           </div>
       </div>
-        <section class="contact">
+        <section class="contact" id="contact_section">
             <div class="contact-heading-container">
                 <h2 class="primary color1">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
             </div>
             <form class="form" action="https://formspree.io/f/mwkjgvpr"
             method="POST">
-                <input type="text" class="mobile-form" required maxlength="30" placeholder="Full name">
+                <input type="text" name="full_name" class="mobile-form" required maxlength="30" placeholder="Full name">
                 <div class="desktop-form">
-                    <input type="text" name="full_name" required maxlength="30" placeholder="Full Name">
-                    <!-- <input type="text" name="last_name" required maxlength="30" placeholder="Last Name"> -->
+                    <input type="text" name="first_name" required maxlength="30" placeholder="First Name">
+                    <input type="text" name="last_name" required maxlength="30" placeholder="Last Name">
                 </div>
                 <input type="email" name="email" required maxlength="30" placeholder="Email Address">
                 <textarea type="text" name="message" required class="textarea" maxlength="500" placeholder="Hey I'd like to connect too"></textarea>
-                <button type="submit" class="get-in-touch-btn" name="get-in-touch" id="">Get in touch</button>
+                <div class="validation-message-container">
+                    <p class="validation-message"></p>
+                </div>
+                <button type="submit" class="get-in-touch-btn" name="submit">Get in touch</button>
             </form>
             <span class="email">bhobserver0@gmail.com</span>
         </section>
-
         <footer>
             <div class="icon-container">
                 <ul class="icons">
@@ -234,5 +175,6 @@
             </div> 
         </footer>
     </main>
+    <script src="main.js"></script>
 </body>
 </html>
