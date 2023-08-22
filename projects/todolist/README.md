@@ -26,19 +26,20 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 BH-Observer Portfolio <a name="about-project"></a>
+# 📖 To Do List <a name="about-project"></a>
 
 
-**Portfolio** is a website that is used to showcase the projects and abilities.
+**To Do List** is a single page website that has features to make a to do list. It has add and remove feature to add a new activity and remove it.
 
 ## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
   <li>ES6</li>
 </ul>
+
+### Tech Stack <a name="tech-stack"></a>
+**HTML5, CSS3, ES6**
 
 ### Key Features <a name="key-features"></a>
 
@@ -50,7 +51,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://bhobserver.github.io/projects/portfolio/index.html)
+- [Live Demo Link](http://bh-observer.me/projects/todolist/dist/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
