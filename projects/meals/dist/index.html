@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
+<body>
+    <div class="blur-bg">
+      <section class="pop-up">
+          <div class="img-container">
+              <img class="img-pop-up" alt="portfolio-image">
+              <img class="close-pop-up" alt="close-button">
+          </div>
+          
+          <div class="pop-up-heading">
+              
+          </div>
+
+          <div class="input-container">
+              <h2>Add Your Comment</h2>
+              <span class="underline"></span>
+                  <input type="text" name="user-name" placeholder="Your Name" id="userNameInput">
+                  <textarea class="" placeholder="Share your insights" id="commentInput"></textarea>
+              <div class="submit-btn-container" >
+                <span class="comment-count"></span>
+                  <button type="submit" id="submitButton">Comment</button>
+              </div>
+          </div>
+      
+          <div class="comments-container">
+              <h4>Comments:</h4>
+              
+              <ul id="commentsList">
+
+              </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <header>
+      <nav class="navbar">
+        <div class="navbar-brand">Delicious Meals</div>
+        <div class="menu-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <ul class="navbar-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li>
+            <a href="#">Meals(<span id="count"></span>)</a>
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="products">
+        <div>
+          <h2 class="title">Delicious Meals</h2>
+          <div class="title-underline"></div>
+        </div>
+        <div class="products-center"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Delicious Meals created by Umuhan and Burhan</p>
+    </footer>
+  </body>
+</html>
