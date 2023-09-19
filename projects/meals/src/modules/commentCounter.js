@@ -1,9 +1,10 @@
 const commentCount = () => {
   const commentList = document.querySelector('#commentsList');
-  const inputContainer = document.querySelector('.input-container');
-  const commentCount = document.querySelector('.comment-count');
-  commentCount.textContent = `Comments: ${commentList.children.length}`;
-  inputContainer.appendChild(commentCount);
+  const popUpHeading = document.querySelector('.pop-up-heading');
+  const commentCount = document.createElement('span');
+  commentCount.setAttribute('class', 'comment-count');
+  commentCount.textContent = `Comments (${commentList.children.length})`;
+  popUpHeading.appendChild(commentCount);
 };
 
 export default commentCount;
