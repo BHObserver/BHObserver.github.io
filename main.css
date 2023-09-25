@@ -4,7 +4,6 @@ and set it to cover, add font-family */
 body{
   font-family: Arvo, serif;
   background: url(./././././img/bg.jpg) no-repeat center center;
-  background-attachment: fixed;
   background-size: cover;
 }
 
