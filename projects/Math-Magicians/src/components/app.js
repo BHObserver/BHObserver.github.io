@@ -20,6 +20,7 @@ function App() {
           </ul>
         </nav>
       </header>
+      <Home />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/calculator" element={<Calculator />} />
